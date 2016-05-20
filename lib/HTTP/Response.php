@@ -74,11 +74,7 @@ class Response
 			case 504: $text = 'Gateway Time-out'; break;
 			case 505: $text = 'HTTP Version not supported'; break;
 			default:
-				if(__APP_RUNNING_MODE__ == 1)
-					throw new HTTPResponseException('Unknown http status code "' . htmlentities($code) . '".');
-				else
-					die('Unknown http status code "' . htmlentities($code) . '".');
-
+				throw new HTTPResponseException('Unknown http status code "' . htmlentities($code) . '".');
 				break;
 		}
 
