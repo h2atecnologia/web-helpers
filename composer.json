@@ -1,0 +1,24 @@
+{
+    "name": "h2atecnologia/web-helpers",
+    "type": "library",
+    "description": "WebHelpers - is an open source library to support AuroraMVC and FilomenaRESTful",
+    "keywords": ["MVC", "RESTful", "HTTP", "Aurora", "Filomena"],
+    "homepage": "http://www.h2a.com.br/",
+    "license": "MIT",
+    "authors": [
+    	{
+    		"name": "Luiz Henrique Dias de Souza",
+    		"email": "henrique@h2a.com.br",
+    		"role": "Developer"
+    	}
+    ],
+    "require": {
+        "php": ">=5.5.34"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "files": [ "WebHelpers.php" ]
+    }
+}
