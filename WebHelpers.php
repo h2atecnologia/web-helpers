@@ -6,4 +6,7 @@ require __DIR__.'/lib/HTTP/Exceptions.php';
 require __DIR__.'/lib/HTTP/Request.php';
 require __DIR__.'/lib/HTTP/Response.php';
 
+require __DIR__.'/lib/Security/PasswordHash.php';
+require __DIR__.'/lib/Security/PasswordHelper.php';
+
 ?>
